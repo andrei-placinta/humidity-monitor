@@ -9,8 +9,7 @@ def plotValues():
     plt.title('Humidity sensor graph')
     plt.grid(True)
     plt.ylabel('VALUE!(Humidity sensor)')
-    plt.plot(values, 'rx-', label='Humidity sensor=' +valueRead+'L1= '+L1+'L2= '+L2
-             ,color='blue')
+    plt.plot(values, 'rx-', label='Humidity sensor=' +valueRead+'L1= '+L1+'L2= '+L2, color='blue')
     plt.legend(loc='upper left')                                                            
     plt.xlabel('Time(s)')
 
